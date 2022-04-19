@@ -18,7 +18,7 @@
 
 	
 
-	echo "<p>Witaj ".$_SESSION['user']."!</p>";
+	echo "<p>Witaj ".$_SESSION['user'].'! [<a href="logout.php">Wyloguj sie !</a>]</p>';
 	echo "<p><b>Drewno</b> ".$_SESSION['drewno'];
 	echo " | <b>Kamien</b> ".$_SESSION['kamien'];
 	echo " | <b>Zboze</b> ".$_SESSION['zboze']."</p>";

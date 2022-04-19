@@ -27,7 +27,7 @@
 			$_SESSION['zalogowany'] = true;
 
 			$wiersz = $rezultat->fetch_assoc();
-			$_SESSION['id'] = wiersz['id'];
+			$_SESSION['id'] = $wiersz['id'];
 			$_SESSION['user'] = $wiersz['user'];
 			$_SESSION['drewno'] = $wiersz['drewno'];
 			$_SESSION['kamien'] = $wiersz['kamien'];
