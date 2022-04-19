@@ -1,6 +1,12 @@
 <?php
 
 	session_start();
+		if ($_SESSION['zalogowany']==false)
+	{
+		header('Location: index.php');
+		exit();
+
+	}
 
 ?>
 
