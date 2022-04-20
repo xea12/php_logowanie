@@ -22,6 +22,9 @@
 </head>
 <body>
 	<h1>Tylko martwi ujrzą koniec wojny</h1>
+
+	<a href="rejestracja.php">Rejestracja - załóż nowe konto!</a>
+	<br /><br />
 	<form action="zaloguj.php" method="post">
 		Login: <br />		<input type="text" name="login" /> <br /><br />
 		Hasło: <br />		<input type="password" name ="haslo" />	<br /><br />

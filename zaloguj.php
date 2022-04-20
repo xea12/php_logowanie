@@ -56,7 +56,7 @@
 			
 		} else {
 
-			$_SESSION['blad'] = '<span style="color:red">Nieprawid³owy login lub has³o!</span>';
+			$_SESSION['blad'] = '<span style="color:red">Nieprawidlowy login lub haslo!</span>';
 			header('Location: index.php');
 			
 		}
